@@ -36,4 +36,4 @@
 
 A script ('''main.py''') that you are able to run from the command line to produce a pre-defined output ('''output.txt''') in the working directory (the folder containing the dataset, script, and output).
 
-![Run Script](Run Script.PNG)
+![Run Script](Run_Script.PNG)
