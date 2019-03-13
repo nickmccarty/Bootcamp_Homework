@@ -1,16 +1,6 @@
 # Python Assignment 1 | Py Me Up, Charlie
 
-## Before You Begin
-
-1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
-
-2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
-
-3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
-
-4. Push the above changes to GitHub.
-
-### PyBank
+## PyBank
 
 * Given a dataset ([budget_data.csv](https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCBBERK201902DATA3/blob/master/02-Homework/03-Python/Instructions/PyBank/Resources/budget_data.csv)) of two columns (`Date` and `Profit/Losses`), your task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -38,7 +28,7 @@
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-#### End Result
+### End Result
 
 A script ('''main.py''') that can be run from the command line to produce a pre-defined output ('''output.txt''') in the working directory (the folder containing the dataset, script, and output).
 
