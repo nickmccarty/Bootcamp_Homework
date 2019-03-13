@@ -42,4 +42,4 @@
 
 In essence, you the end result is a script ('''main.py''') that you are able to run from the command line to produce a pre-defined output ('''output.txt''') in the working directory (the folder containing the dataset, script, and output).
 
-![png](Run_Script.png)
+![Run_Script](Run_Script.png)
