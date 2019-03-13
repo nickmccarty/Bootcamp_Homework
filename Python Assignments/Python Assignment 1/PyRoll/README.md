@@ -34,7 +34,7 @@
 
 ### End Result
 
-A script ('''main.py''') that you are able to run from the command line to produce a pre-defined output ('''output.txt''') in the working directory (the folder containing the dataset, script, and output). 
+A script (''main.py'') that you are able to run from the command line to produce a pre-defined output (''output.txt'') in the working directory (the folder containing the dataset, script, and output). 
 
 * Please note that you will need to download the .csv file using the link provided above and save it in your working directory in order for the script to produce the output (files larger than 25 MB cannot be uploaded to GitHub, so the dataset isn't automatically provided when cloning this repository).
 
