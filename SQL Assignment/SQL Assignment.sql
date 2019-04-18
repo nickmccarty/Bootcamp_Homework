@@ -186,7 +186,7 @@ WHERE
         AND language_id = 1;
         
 -- 7b, Display all actors who appear in
--- the film Alone Trip
+-- the film Alone Trip (film_id = 17)
 
 SELECT 
     actor.first_name,
