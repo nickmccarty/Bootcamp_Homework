@@ -174,6 +174,7 @@ ORDER BY customer.last_name ASC;
 
 -- 7a, Display the titles of movies starting
 -- with the letters K and Q whose language is English
+-- (language_id = 1)
 
 SELECT 
     title, language_id
@@ -188,7 +189,24 @@ WHERE
 -- the film Alone Trip
 
 SELECT 
-    first_name, last_name
+    actor.first_name,
+    actor.last_name,
+    film.title
+FROM
+    actor
+		JOIN
+    film_actor ON film_actor.actor_id = actor.actor_id
+        JOIN
+    film ON film.film_id = film_actor.film_id
+		WHERE
+	film_actor.film_id = 17;
+
+-- 7b (again), this time using subqueries
+-- instad of JOINs, just because
+
+SELECT 
+    actor.first_name,
+    actor.last_name
 FROM
     actor
 WHERE
@@ -198,7 +216,7 @@ WHERE
             film_actor
         WHERE
             film_actor.actor_id = actor.actor_id
-            and film_actor.film_id = 17);
+                AND film_actor.film_id = 17);
 
 -- 7c, Display names and emails
 -- of customers from Canada
