@@ -10,4 +10,4 @@ FROM
        JOIN
    regional_income ON regional_income.GeoName = states.Name
         WHERE
-    housing_price_index.TimePeriod = regional_income.TimePeriod;
+   housing_price_index.TimePeriod = regional_income.TimePeriod;
