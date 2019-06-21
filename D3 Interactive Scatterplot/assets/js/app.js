@@ -153,8 +153,12 @@ function updateToolTip(chosenYAxis, chosenXAxis, circlesGroup) {
 
   circlesGroup.on("mouseover", function(data) {
 
-    toolTip.show(data);
-
+    toolTip
+      .style("display", "block")
+      .style("left", d3.event.pageX + "px")
+      .style("top", d3.event.pageY + "px")
+      .show(data);
+    
   })
     
     .on("mouseout", function(data) {
